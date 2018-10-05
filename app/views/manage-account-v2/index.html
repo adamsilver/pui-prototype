@@ -34,77 +34,81 @@
 
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-two-thirds">
-          {{ govukTable({
-            firstCellIsHeader: true,
-            rows: [
-              [
-                {
-                  text: "First name"
-                },
-                {
-                  text: "Adam"
-                },
-                {
-                  html: ''
-                }
-              ],
-              [
-                {
-                  text: "Last name"
-                },
-                {
-                  text: "Silver"
-                },
-                {
-                  html: ''
-                }
-              ],
-              [
-                {
-                  text: "Email"
-                },
-                {
-                  html: "adam@sherwindavis.com"
-                },
-                {
-                  html: ''
-                }
-              ],
-              [
-                {
-                  text: "Password"
-                },
-                {
-                  html: "********"
-                },
-                {
-                  html: ''
-                }
-              ],
-              [
-                {
-                  html: "Default organisation address"
-                },
-                {
-                  html: "1 The Road<br>London<br>W91SF"
-                },
-                {
-                  html: '<a href="#">Change default</a>'
-                }
-              ],
-              [
-                {
-                  text: "Permissions"
-                },
-                {
-                  html: "Manage cases"
-                },
-                {
-                  html: ""
-                }
-              ]
-            ]
-          }) }}
+        
+          <dl class="govuk-check-your-answers govuk-check-your-answers--short">
+                   <div class="govuk-check-your-answers__contents">
+                     <dt class="govuk-check-your-answers__question">
+                       First name
+                     </dt>
+                     <dd class="govuk-check-your-answers__answer">
+                       Adam
+                     </dd>
+                     <dd class="govuk-check-your-answers__change">
+
+                     </dd>
+                   </div>
+                   <div class="govuk-check-your-answers__contents">
+                     <dt class="govuk-check-your-answers__question">
+                       Last name
+                     </dt>
+                     <dd class="govuk-check-your-answers__answer">
+                       Silver
+                     </dd>
+                     <dd class="govuk-check-your-answers__change">
+
+                     </dd>
+                   </div>
+                   <div class="govuk-check-your-answers__contents">
+                     <dt class="govuk-check-your-answers__question">
+                       Email
+                     </dt>
+                     <dd class="govuk-check-your-answers__answer">
+                       adam@sherwindavis.com
+                     </dd>
+                     <dd class="govuk-check-your-answers__change">
+
+                     </dd>
+                   </div>
+                   <div class="govuk-check-your-answers__contents">
+                     <dt class="govuk-check-your-answers__question">
+                       Password
+                     </dt>
+                     <dd class="govuk-check-your-answers__answer">
+                       ********
+                     </dd>
+                     <dd class="govuk-check-your-answers__change">
+
+                     </dd>
+                   </div>
+                   <div class="govuk-check-your-answers__contents">
+                     <dt class="govuk-check-your-answers__question">
+                       Defult organisation address
+                     </dt>
+                     <dd class="govuk-check-your-answers__answer">
+                       1 The Road <br>
+                       London <br>
+                       W91SF
+                     </dd>
+                     <dd class="govuk-check-your-answers__change">
+                       <a href="#">
+                         Change default<span class="visually-hidden"></span>
+                       </a>
+                     </dd>
+                   </div>
+                   <div class="govuk-check-your-answers__contents">
+                     <dt class="govuk-check-your-answers__question">
+                       Permissions
+                     </dt>
+                     <dd class="govuk-check-your-answers__answer">
+                       Manage cases
+                     </dd>
+                     <dd class="govuk-check-your-answers__change">
+                       <a href="#">
+                         <span class="visually-hidden"></span>
+                       </a>
+                     </dd>
+                   </div>
+                 </dl>
 
       </div>
     </div>
